@@ -17,7 +17,7 @@ body {
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    width: 450px;
+    width: 550px;
     height: 200px;
 }
 
@@ -25,6 +25,7 @@ body {
     background-color: #009879;
     text-align: left;
     font-weight: bold;
+    color: #fff;
 }
 
 .content-table th, .content-table td {
@@ -34,7 +35,6 @@ body {
 .content-table tbody tr {
     border-bottom: 1px solid #dddd;
     transition: all .2s ease-in;
-    cursor: pointer;
 }
 
 .content-table tr:hover {
@@ -51,8 +51,20 @@ body {
     border-bottom: 2px solid #009870;
 }
 
-@media only screen and (max-width:768px){
-    .content-table{
+.content-table button {
+    border-radius: 5px;
+    background-color: #009879;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border: none;
+    color: #fff;
+
+}
+
+@media only screen and (max-width:768px) {
+    .content-table {
         width: 90px;
     }
 }
